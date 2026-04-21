@@ -1,0 +1,13 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Petals/Leaves -->
+  <path d="M50 70C35 70 20 60 15 45C15 30 30 25 45 40C48 43 50 48 50 50" fill="#ccdf38"/> <!-- Light Green Left 1 -->
+  <path d="M50 70C25 65 10 50 10 30C10 15 25 10 40 25C45 30 48 40 50 50" fill="#ccdf38" opacity="0.8"/> <!-- Light Green Left 2 -->
+  
+  <path d="M50 70C65 70 80 60 85 45C85 30 70 25 55 40C52 43 50 48 50 50" fill="#00a896"/> <!-- Teal Right 1 -->
+  <path d="M50 70C75 65 90 50 90 30C90 15 75 10 60 25C55 30 52 40 50 50" fill="#00a896" opacity="0.8"/> <!-- Teal Right 2 -->
+  <path d="M50 70C50 70 65 40 65 20C65 5 55 0 50 15C48 18 48 35 50 50" fill="#00a896" opacity="0.6"/> <!-- Teal Center -->
+
+  <!-- Swoosh/Waves -->
+  <path d="M5 65C30 95 70 95 95 65" stroke="#00a896" strokeWidth="4" strokeLinecap="round"/>
+  <path d="M15 75C35 95 65 95 85 75" stroke="#ccdf38" strokeWidth="2" strokeLinecap="round" opacity="0.8"/>
+</svg>
