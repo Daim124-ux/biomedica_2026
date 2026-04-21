@@ -195,6 +195,13 @@ export default function LoginPage() {
             {loading ? 'Logowanie...' : 'Zaloguj się'}
           </button>
         </form>
+
+        <div style={{ textAlign: 'center', marginTop: '1.5rem', fontSize: '0.9rem', color: 'var(--foreground)' }}>
+          Jeśli potrzebujesz się skontaktować, zadzwoń pod numer:<br />
+          <a href="tel:+48533138340" style={{ color: 'var(--primary)', fontWeight: 'bold', textDecoration: 'none' }}>
+            +48 533 138 340
+          </a>
+        </div>
         
         <div style={{ textAlign: 'center', marginTop: '2rem', fontSize: '0.8rem', color: 'var(--foreground)' }}>
           © {new Date().getFullYear()} Biomedica Nowy Sącz. Wszelkie prawa zastrzeżone.
