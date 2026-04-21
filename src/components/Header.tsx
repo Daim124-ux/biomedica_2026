@@ -54,13 +54,24 @@ export default function Header() {
           padding: isScrolled ? '0 1rem' : '0'
         }}>
           <Link href="/" style={{ display: 'flex', alignItems: 'center', zIndex: 1001 }}>
-            <div style={{ position: 'relative', height: '45px', width: isScrolled ? '130px' : '150px', transition: 'width 0.4s ease' }}>
+            <div style={{ 
+              position: 'relative', 
+              height: isScrolled ? '50px' : '75px', 
+              width: isScrolled ? '130px' : '200px', 
+              transition: 'all 0.4s ease',
+              display: 'flex',
+              alignItems: 'center',
+              marginTop: isScrolled ? '0' : '-5px' // Slightly lifting it as requested
+            }}>
               <Image 
                 src={isScrolled ? "/images/Biomedica_fav.png" : "/images/Biomedica_logo.webp"} 
                 alt="Biomedica" 
-                width={isScrolled ? 50 : 180} 
-                height={isScrolled ? 50 : 60} 
-                style={{ objectFit: 'contain', transition: 'all 0.4s cubic-bezier(0.16, 1, 0.3, 1)' }}
+                width={isScrolled ? 50 : 200} 
+                height={isScrolled ? 50 : 75} 
+                style={{ 
+                  objectFit: 'contain', 
+                  transition: 'all 0.4s cubic-bezier(0.16, 1, 0.3, 1)',
+                }}
                 priority
               />
             </div>
